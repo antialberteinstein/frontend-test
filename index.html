@@ -1,38 +1,28 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="style/style.css">
-        <title>HomePage</title>
+        <title>MALNP</title>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Proxima+Nova:wght@400;700&display=swap">
+        <link rel="shortcut icon" href="images/logo.png"/>
     </head>
     <body>
-        <img class="logo" src="res/logo.png" alt="Websites logo">
-        <h1 class="heading">HomePage</h1>
-        <div class="welcomeMsg">~Welcome to my websites!~</div>
-        <p class="intro">
-            Created by <a href="">Le Nhat Phuong</a>
-        </p>
-        <br>
-        <div class="content">
-            <h2>About me:</h2>
-            <ul>
-                <li>First-year IT student at <a href="">Da Nang University of Science and Technology</a>.</li>
-                <li>From <a href="">Quang Nam, Viet Nam</a>.</li>
-            </ul>
-        </div>
-        <br>
-        <div class="content">
-            <h2>Tools</h2>
-            <h4>Check Mersenne number:</h4>
-            <input id="mersene-checked-number"/>
-            <div id="result-of-mersene-checking"></div>
-        </div>
-        <div class="ender">
-            <hr>
-            <p class="intro">Nice to see you!</p>
-            <hr>
-        </div>
-
-        <script src="script/tools.js"></script>
-        <script src="script/welcomeMsg.js"></script>
+        <header>
+            <nav>
+                <div id="logo">
+                    <a href="#"><img src="images/logo.png" alt="Create by Le Nhat Phuong"/></a>
+                </div>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li class="signup"><a href="#signup">Sign Up</a></li>
+                    <li class="signin"><a href="#signin">Sign In</a></li>
+                </ul>
+            </nav>
+        </header>
+        <p id="typingText"></p>
+        <script src="js/ss.js"/>
     </body>
 </html>
