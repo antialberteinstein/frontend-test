@@ -68,9 +68,11 @@ nav a:hover {
 }
 #typingText {
     color: #fef9;
-    font-family: 'Misano', sans-serif;
-    font-size: 70px;
+    font-family: 'First Love', sans-serif;
+    font-size: 65px;
     font-weight: bold;
     text-align: center;
     padding: auto;
+    width: 80%;
+    margin-left: 10%;
 }
