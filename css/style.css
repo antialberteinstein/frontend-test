@@ -68,6 +68,7 @@ nav a:hover {
 }
 #typingText {
     color: #fef9;
+    font-family: 'Misano', sans-serif;
     font-size: xx-large;
     font-weight: bold;
     text-align: center;
