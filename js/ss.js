@@ -1,6 +1,10 @@
+texts = ['Hi there, my name is Le Nhat Phuong, nice to see you all!',
+         'Wilkommen, mein Freunde, mein Name ist Le Nhat Phuong',
+         'Bonjour, je suis Le Nhat Phuong, et toi?']
+
 document.addEventListener("DOMContentLoaded", function() {
     var typingElement = document.getElementById('typingText');
-    var textToType = "Hello, my name is Le Nhat Phuong, nice to see you all!"
+    var textToType = texts[Math.floor(Math.random() * texts.length)]
 
     var speed = 150
     var delay = 1000
